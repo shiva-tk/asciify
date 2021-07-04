@@ -88,6 +88,6 @@ python asciify /filepath/to/image.png 1234 False
 ```
 
 *Where:*
-- /filepath/to/image.png is replaced with the filepath to the image you want to asciify
-- 1234 is replaced with the width of the output text in characters
-- False is replaced with whether or not the output should be inverted - by default the output is for black text on a white background
+- `/filepath/to/image.png` is replaced with the filepath to the image you want to asciify
+- `1234` is replaced with the width of the output text in characters
+- `False` is replaced with whether or not the output should be inverted - by default the output is for black text on a white background
