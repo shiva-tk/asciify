@@ -80,10 +80,16 @@ BB#BBBBBBBBBBBBBBBBBBBBBBBBB%555Me~```````````````````````````````'g#=##BBBBB###
 
 ## Installation
 1. Clone the repository
-2. Run setup.py
+2. Run setup.py:
 
 ```
 sudo python setup.py install
+```
+
+3. To uninstall, run:
+
+```
+sudo pip uninstall asciify
 ```
 
 ## Usage
