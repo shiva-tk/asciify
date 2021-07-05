@@ -78,13 +78,18 @@ BB#BBBBBBBBBBBBBBBBBBBBBBBBB%555Me~```````````````````````````````'g#=##BBBBB###
 
 # asciify - a python tool which generates ascii art for any image
 
+## Installation
+1. Clone the repository
+2. Run setup.py
+
+```
+sudo python setup.py install
+```
+
 ## Usage
 
-**Depends on the [pillow](https://python-pillow.org/) library**
-
-*Using a terminal, change directories to asciify. Use the command*
 ```
-python asciify /filepath/to/image.png 1234 False
+asciify /filepath/to/image.png 1234 False
 ```
 
 *Where:*

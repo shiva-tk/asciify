@@ -1,6 +1,6 @@
 from PIL import Image
 import math
-import getCharBrightness
+from .getCharBrightness import getCharBrightness
 
 def convertMonoChrome(image):
     #Takes in an image, returns an image which is converted to monochrome
@@ -16,7 +16,7 @@ def asciify(charWidth, image, invert):
     
     charMap = [["" for i in range(charWidth)] for i in range(charHeight)]
     
-    characters = getCharBrightness.getCharBrightness()
+    characters = getCharBrightness()
     if invert: characters.reverse()
     for y in range(charHeight):
         for x in range(charWidth):
